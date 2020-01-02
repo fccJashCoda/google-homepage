@@ -1,0 +1,221 @@
+/* Globals */
+body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body a {
+    text-decoration:none;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+/* Navbar*/
+.signIn {
+    float:right;
+    padding: 0 25px 0 0;
+    font-size:13px;
+}
+
+.signIn li {
+    display:inline;
+    padding-left:15px;
+}
+
+.signIn a {
+    color:rgba(0,0,0,.84);
+}
+
+/* Main Section */
+main {
+    display:flex;
+    max-width:600px;
+    margin:auto;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+
+main .container {
+    margin:auto;
+    margin-top:120px;
+}
+
+/* Form */
+.logo {
+    margin-bottom:20px;
+}
+.searchBox {
+    display:flex;
+    width:484px;
+    height:46px;
+    border-radius:30px;
+    border:solid 1px #ccc;
+    margin:auto;
+}
+
+.searchBox:focus {
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.15);
+}
+
+.magnify {
+    display:block;
+    width:20px;
+    height:20px;
+    padding:14px;
+    padding-left:15px;
+}
+
+.magnify img {
+    width:20px;
+    color:rgba(0,0,0,.54);
+}
+.googleSearch {
+    border:none;
+    width:415px;
+    height:40px;
+    margin-top:2px;
+    font-size: 1rem;
+}
+
+.buttons {
+    margin-top:30px;
+}
+
+.buttons .buttonsTop{
+    display:flex;
+    color:rgba(0,0,0,.84);
+    align-items:center;
+    justify-content: center;
+}
+
+.buttons .buttonsBottom {
+    font-size:small;
+    margin-top:25px;
+}
+
+.buttons .buttonsBottom a {
+    padding-left:.5rem;
+}
+.separator {
+    display:block;
+    width:10px;
+}
+
+/* Footer */
+footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:rgb(236, 236, 236);
+    color:rgba(0,0,0,.54);
+    line-height:40px;
+}
+
+
+footer .topDiv {
+    border-top:solid 1px rgba(0,0,0,.14);;
+}
+
+footer .topDiv .location {
+    display:block;
+    padding-left:30px;
+}
+
+footer .bottomDiv {
+    border-top:solid 1px rgba(0,0,0,.14);;
+}
+
+footer ul {
+    margin:0;
+    padding:0;
+}
+
+footer ul li {
+    list-style:none;
+    display:inline-block;
+    font-size:13px;
+}
+
+footer ul li a{
+    color:rgba(0,0,0,.54);
+    padding-left:27px;
+}
+
+footer .footerLeft {
+    margin-left: 0;
+    padding-left: 0;
+    float: left;
+}
+
+footer .footerRight {
+    float: right;
+    margin-right: 27px;
+}   
+
+/* Buttons */
+.btn {
+    background:#ccc;
+    border-radius:2px;
+    padding:0.6rem 1rem;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    border:1px solid rgba(0,0,0,0);
+}
+
+.btn-primary {
+    font-weight:bold;
+    background:#4387fd;
+    color:#fff !important;
+    padding:0.5rem 1rem;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 2px 5px -2px rgba(0,0,0,0.75);
+}
+
+.btn-default {
+    font-size:15px;
+    display:block;
+    background:#f4f4f4;
+    border-radius:5px;
+    color:rgba(0,0,0,.64);
+    padding:0.6rem 1rem;
+}
+
+.btn-default:hover {
+    border:1px #ccc solid;
+    box-sizing:border-box;
+    color:#111;
+}
+
+/* grid button */
+.gridBox {
+    display:inline-block;
+    width:24px;
+    height:24px;
+}
+
+.grid {
+    display:grid;
+    position:absolute;
+    margin-top:11px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:.2rem;
+}
+.box {
+    width:4px;
+    height:4px;
+    background: rgba(0,0,0,.54);
+}
+
+.grid:hover > .box {
+    background: rgba(0,0,0,.84);
+}
+
+/* Utilities*/
+.clearfix {
+    clear:both;
+}
